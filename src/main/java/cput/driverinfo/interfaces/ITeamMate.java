@@ -5,4 +5,12 @@ package cput.driverinfo.interfaces;
  */
 public interface ITeamMate extends IDriver
 {
+    Long getId();
+    String getName();
+    String getSurname();
+    String getCountry();
+    String getTeam();
+    int getPoints();
+    int getBehind();
+    int getNumOfWins();
 }

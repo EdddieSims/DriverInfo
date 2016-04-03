@@ -5,4 +5,9 @@ package cput.driverinfo.interfaces;
  */
 public interface ITrack
 {
+    Long getId();
+    String getCountry();
+    String getTrackName();
+    int getNumOfTurns();
+    double getLength();
 }

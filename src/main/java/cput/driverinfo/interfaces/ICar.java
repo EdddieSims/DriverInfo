@@ -5,4 +5,8 @@ package cput.driverinfo.interfaces;
  */
 public interface ICar
 {
+    Long getId();
+    String getMake();
+    String getModel();
+    int getYear();
 }
